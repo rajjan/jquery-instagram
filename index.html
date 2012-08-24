@@ -34,17 +34,6 @@
   <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script src="https://github.com/potomak/jquery-instagram/raw/master/jquery.instagram.js"></script>
 
-  <script type="text/javascript">
-  /* <![CDATA[ */
-      (function() {
-          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-          t.parentNode.insertBefore(s, t);
-      })();
-  /* ]]> */
-  </script>
   
   <script>
     $(document).ready(function() {
@@ -56,20 +45,6 @@
         clientId: clientId
       });
       
-      $(".instagram.location").instagram({
-        locationId: '514276',
-        show: 5,
-        clientId: clientId
-      });
-      
-      $(".instagram.search").instagram({
-        search: {
-          lat: 48.858844,
-          lng: 2.294351
-        },
-        show: 5,
-        clientId: clientId
-      });
     });
   </script>
 </head>
